@@ -1,4 +1,9 @@
-<p style="text-align: center; background-color: white;">
-  <a href="{{site.baseurl}}/">Home</a> |
-  <a href="{{site.baseurl}}/projects/">Projects</a> | 
-</p>
+<ul class="horizontal">
+    {% for nav in site.data.nav %}
+      {% if nav.title == page.title %}
+          <li class="navitem"><a class="active" href="{{ nav.url }}">{{ nav.title }}</a></li>
+      {% else %}
+          <li class="navitem"><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
