@@ -65,8 +65,10 @@ li.author-contact-item:hover {
   border-radius: 150px;
 }
 
-.grid {
+.inner {
   display: grid;
+  width: 700px;
+  margin: 0 auto;
 }
 
 footer {
