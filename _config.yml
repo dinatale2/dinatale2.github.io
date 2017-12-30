@@ -1,1 +1,4 @@
-theme: jekyll-theme-tactile
+theme:          jekyll-theme-tactile
+title:          Giuseppe Di Natale
+locale:         en_US
+url:            https://dinatale2.github.io
