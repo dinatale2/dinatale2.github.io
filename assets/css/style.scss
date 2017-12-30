@@ -11,7 +11,6 @@ header {
 hr {
   height: 1px;
   padding-bottom: 1em;
-  /* margin-top: 1em; */
   line-height: 1px;
   background: transparent url(../images/hr.png) 50% 0 no-repeat;
   border: none;
@@ -37,4 +36,48 @@ li.navitem:last-child {
 
 li.navitem:hover a {
   background-color: #e2e2e2;
+}
+
+.author-contact {
+  list-style-type: none;
+}
+
+li.author-contact-item {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li.author-contact-item:hover {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.author-bio {
+  display: inline;
+  float: left;
+  width: 27%;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.bio-photo {
+  border-radius: 150px;
+}
+
+.grid {
+  display: grid;
+}
+
+footer {
+  margin-top: 0px;
+}
+
+.project-list {
+  list-style-type: none;
+}
+
+li.project-item {
+  list-style: none;
+  padding-left: 0px;
 }
