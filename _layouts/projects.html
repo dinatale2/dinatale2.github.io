@@ -23,7 +23,7 @@
 	  {% include nav.html %}
           <hr>
         </header>
-        <div>
+        <div class="content">
         <div class="author-bio">
           {% include author-bio.html %}
         </div>
@@ -39,6 +39,14 @@
 
               {{ project.content | markdownify }}
 
+              {% if project.link %}
+              <i class="fa fa-external-link-square"></i>
+              <a href="{{ project.link }}"><small>Site</small></a>&nbsp;
+              {% endif %}
+              {% if project.report%}
+              <i class="fa fa-file-pdf-o"></i>
+              <a href="{{ project.report }}"><small>Report</small></a>&nbsp;
+              {% endif %}
               {% if project.github %}
               <i class="fa fa-git-square"></i>
               <a href="{{ project.github }}"><small>GitHub</small></a>&nbsp;
@@ -46,10 +54,6 @@
               {% if project.docs %}
               <i class="fa fa-book"></i>
               <a href="{{ project.docs }}"><small>Docs</small></a>&nbsp;
-              {% endif %}
-              {% if project.link %}
-              <i class="fa fa-external-link-square"></i>
-              <a href="{{ project.github }}"><small>Site</small></a>&nbsp;
               {% endif %}
               </li>
           {% endfor %}

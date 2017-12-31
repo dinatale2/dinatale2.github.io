@@ -1,6 +1,52 @@
-- title: Modification and Evaluation of Linux I/O Schedulers 
-  logo: 
-  docs: 
+- title: Twitch Chat Bot and Notification System
+  logo:
+  report:
+  docs:
+  github:
+  content: >
+
+        Temporary text.
+
+- title: OpenSFS Lustre Build Farm
+  logo:
+  report:
+  docs:
+  github: https://github.com/opensfs/lustre-buildbot-config/
+  content: >
+
+        Temporary text.
+
+- title: Modification and Evaluation of Linux I/O Schedulers
+  logo:
+  report: /files/io_report.pdf
+  docs:
+  github:
+  content: >
+
+        Temporary text.
+
+- title: Travel Prediction Model
+  logo:
+  report:
+  docs:
+  github:
+  content: >
+
+        Temporary text.
+
+- title: Observation of the 802.11 Channel Capture Effect
+  logo:
+  report:
+  docs:
+  github:
+  content: >
+
+        Temporary text.
+
+- title: A Harvard Architecture Assembly Simulator
+  logo:
+  report: /files/senior_project.pdf
+  docs:
   github:
   content: >
 

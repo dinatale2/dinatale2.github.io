@@ -53,16 +53,19 @@ li.author-contact-item:hover {
 }
 
 .author-bio {
-  display: inline;
-  float: left;
-  width: 27%;
-  margin-right: 30px;
+  display: block;
+  margin-right: 25px;
   text-decoration: none;
   font-size: small;
 }
 
 .bio-photo {
   border-radius: 150px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 195px auto;
 }
 
 .inner {
@@ -81,5 +84,19 @@ footer {
 
 li.project-item {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-left: solid 1px #bbb
+}
+
+li.project-item p {
+  margin-bottom: 0px;
+}
+
+li.project-item h3 {
+  margin-bottom: 5px;
+}
+
+li.project-item a {
+  font-size: small;
 }
