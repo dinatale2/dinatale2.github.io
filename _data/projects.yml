@@ -3,6 +3,7 @@
   report:
   docs:
   github:
+  link:
   content: >
 
         Temporary text.
@@ -12,6 +13,7 @@
   report:
   docs:
   github: https://github.com/opensfs/lustre-buildbot-config/
+  link: http://build.lustre.org/
   content: >
 
         Temporary text.
@@ -21,24 +23,27 @@
   report: /files/io_report.pdf
   docs:
   github:
+  link:
   content: >
 
         Temporary text.
 
 - title: Travel Prediction Model
   logo:
-  report:
+  report: /files/travel_prediction_report.pdf
   docs:
   github:
+  link:
   content: >
 
         Temporary text.
 
 - title: Observation of the 802.11 Channel Capture Effect
   logo:
-  report:
+  report: /files/channel_capture_report.pdf
   docs:
   github:
+  link:
   content: >
 
         Temporary text.
@@ -48,6 +53,7 @@
   report: /files/senior_project.pdf
   docs:
   github:
+  link:
   content: >
 
         Temporary text.
