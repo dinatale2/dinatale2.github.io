@@ -41,14 +41,19 @@
 
 - title: Travel Prediction Model
   logo:
-  include: false
+  include: true 
   report: /files/travel_prediction_report.pdf
   docs:
   github:
   link:
   content: >
 
-        Temporary text.
+        In a team of two, implemented a travel prediction model based
+        on [latent factors of travel](
+        http://snap.stanford.edu/social2012/papers/guerzhoy-hertzmann.pdf).
+        Factors learned using Batch Gradient Descent. Latent
+        factors were the desirability of a location and a distance-time
+        factor reflecting how far a person may travel in a given time.
 
 - title: Observation of the 802.11 Channel Capture Effect
   logo: wifi.png
