@@ -38,10 +38,10 @@
   content: >
 
         In a team of four, three different I/O schedulers were implemented
-        for the Linux Kernel. Performance of the I/O schedulers were
-        benchmarked for performance using IOZone and Bonnie++. A performance
-        analysis was performed comparing the three new I/O schedulers to
-        a random and Linux's CFQ I/O schedulers.
+        for the Linux Kernel. Performance benchmarking of the I/O schedulers
+        was performed using IOZone and Bonnie++. A performance
+        analysis was then completed which compared the three new I/O schedulers
+        to a random I/O scheduler and Linux's CFQ I/O scheduler.
 
 - title: Travel Prediction Model
   logo:
