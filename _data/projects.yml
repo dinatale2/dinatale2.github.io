@@ -25,15 +25,19 @@
         repository.
 
 - title: Modification and Evaluation of Linux I/O Schedulers
-  logo:
-  include: false
+  logo: io.png
+  include: true
   report: /files/io_report.pdf
   docs:
   github:
   link:
   content: >
 
-        Temporary text.
+        In a team of four, three different I/O schedulers were implemented
+        for the Linux Kernel. Performance of the I/O schedulers were
+        benchmarked for performance using IOZone and Bonnie++. A performance
+        analysis was performed comparing the three new I/O schedulers to
+        a random and Linux's CFQ I/O schedulers.
 
 - title: Travel Prediction Model
   logo:
@@ -57,7 +61,7 @@
 
        In a team of two, designed and implemented a set of experiments to
        observe the 802.11 Channel Capture Effect. Packet traces were collected
-       and processed by writing a C# application using the
+       and processed with a custom written C# application using the
        [SharpPcap](https://github.com/chmorgan/sharppcap) library.
 
 - title: A Harvard Architecture Assembly Simulator
