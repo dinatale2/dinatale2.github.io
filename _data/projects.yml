@@ -1,13 +1,17 @@
 - title: Twitch Chat Bot and Notification System
-  logo:
-  include: false
+  logo: twitch.png
+  include: true
   report:
   docs:
   github:
   link:
   content: >
 
-        Temporary text.
+        In a team of 2, designed and implemented a plugin based
+        chat bot for Twitch in C#. The bot processes various events such as
+        subscriptions and bit donations. Notifications occur over
+        websockets and are delivered to custom made webpages for display
+        on stream via OBS. Source code will be available soon.
 
 - title: OpenSFS Lustre Build Farm
   logo: bb.png
@@ -41,7 +45,7 @@
 
 - title: Travel Prediction Model
   logo:
-  include: true 
+  include: true
   report: /files/travel_prediction_report.pdf
   docs:
   github:
