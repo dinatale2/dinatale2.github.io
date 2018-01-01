@@ -47,15 +47,18 @@
         Temporary text.
 
 - title: Observation of the 802.11 Channel Capture Effect
-  logo:
-  include: false
+  logo: wifi.png
+  include: true
   report: /files/channel_capture_report.pdf
   docs:
   github:
   link:
   content: >
 
-        Temporary text.
+       In a team of two, designed and implemented a set of experiments to
+       observe the 802.11 Channel Capture Effect. Packet traces were collected
+       and processed by writing a C# application using the
+       [SharpPcap](https://github.com/chmorgan/sharppcap) library.
 
 - title: A Harvard Architecture Assembly Simulator
   logo:
@@ -66,7 +69,8 @@
   link:
   content: >
 
-         Designed an instruction set architecture and implemented a simulator
-         which embodies that instruction set. Software engineering principles
-         were used to complete this project. Project was submitted as part of
-         the IEEE Contest 2010 upon completion.
+         In a team of four, designed an instruction set architecture and
+         implemented a simulator which embodies that instruction set.
+         Software engineering principles were used to complete this project.
+         Project was submitted as part of the IEEE Contest 2010 upon
+         completion.
