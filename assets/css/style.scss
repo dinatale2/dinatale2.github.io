@@ -90,7 +90,7 @@ li.project-item {
 }
 
 li.project-item p {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 li.project-item h3 {
@@ -99,4 +99,16 @@ li.project-item h3 {
 
 li.project-item a {
   font-size: small;
+}
+
+li.project-item p a {
+  font-size: inherit;
+}
+
+li.project-item img {
+    padding: 5pt;
+    margin: 0px;
+    float: right;
+    vertical-align: middle;
+    width: 80px;
 }

@@ -1,5 +1,6 @@
 - title: Twitch Chat Bot and Notification System
   logo:
+  include: false
   report:
   docs:
   github:
@@ -9,17 +10,23 @@
         Temporary text.
 
 - title: OpenSFS Lustre Build Farm
-  logo:
+  logo: bb.png
+  include: true
   report:
   docs:
   github: https://github.com/opensfs/lustre-buildbot-config/
   link: http://build.lustre.org/
   content: >
 
-        Temporary text.
+        A build farm for the parallel and distributed file system,
+        [Lustre](https://git.hpdd.intel.com/?p=fs/lustre-release.git).
+        Built on top of [Buildbot](https://buildbot.net/), the build
+        farm builds each proposed change and tag made in the Lustre
+        repository.
 
 - title: Modification and Evaluation of Linux I/O Schedulers
   logo:
+  include: false
   report: /files/io_report.pdf
   docs:
   github:
@@ -30,6 +37,7 @@
 
 - title: Travel Prediction Model
   logo:
+  include: false
   report: /files/travel_prediction_report.pdf
   docs:
   github:
@@ -40,6 +48,7 @@
 
 - title: Observation of the 802.11 Channel Capture Effect
   logo:
+  include: false
   report: /files/channel_capture_report.pdf
   docs:
   github:
@@ -50,10 +59,14 @@
 
 - title: A Harvard Architecture Assembly Simulator
   logo:
+  include: true
   report: /files/senior_project.pdf
   docs:
   github:
   link:
   content: >
 
-        Temporary text.
+         Designed an instruction set architecture and implemented a simulator
+         which embodies that instruction set. Software engineering principles
+         were used to complete this project. Project was submitted as part of
+         the IEEE Contest 2010 upon completion.

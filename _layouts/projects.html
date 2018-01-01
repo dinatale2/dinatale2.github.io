@@ -31,6 +31,7 @@
           {{ content }}
           <ul class="project-list">
           {% for project in site.data.projects %}
+              {% if project.include == true %}
               <li class="project-item">
               <h3>{{ project.title }}</h3>
               {% if project.logo %}
@@ -56,6 +57,7 @@
               <a href="{{ project.docs }}"><small>Docs</small></a>&nbsp;
               {% endif %}
               </li>
+              {% endif %}
           {% endfor %}
           </ul>
         </section>
