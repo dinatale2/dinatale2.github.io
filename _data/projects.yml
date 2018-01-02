@@ -43,6 +43,20 @@
         analysis was then completed which compared the three new I/O schedulers
         to a random I/O scheduler and Linux's CFQ I/O scheduler.
 
+- title: GPU Accelerated Ray-Tracing on NVIDIA Hardware
+  logo:
+  include: true
+  report: /files/cuda_raytracer.pdf
+  docs:
+  github:
+  link:
+  content: >
+
+        In a team of two, designed and implemented a ray tracer with Nvidia's CUDA.
+        The ray tracer was capable of loading an arbitrary mesh and it's associated
+        KD tree and produced images based on camera position and light sources in
+        the scene.
+
 - title: Travel Prediction Model
   logo:
   include: true
@@ -55,7 +69,7 @@
         In a team of two, implemented a travel prediction model based
         on [latent factors of travel](
         http://snap.stanford.edu/social2012/papers/guerzhoy-hertzmann.pdf).
-        Factors learned using Batch Gradient Descent. Latent
+        Factors were learned using Batch Gradient Descent. Latent
         factors were the desirability of a location and a distance-time
         factor reflecting how far a person may travel in a given time.
 
