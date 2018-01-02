@@ -1,0 +1,25 @@
+maintain:
+  - title: ZFS on Linux
+    link: https://github.com/zfsonlinux/zfs
+
+  - title: ZFS Buildbot
+    link: https://github.com/zfsonlinux/zfs-buildbot
+
+  - title: OpenSFS Lustre Buildbot
+    link: https://github.com/opensfs/lustre-buildbot-config 
+
+  - title: Maestro Workflow
+    link: https://github.com/llnl/maestrowf 
+
+  - title: mpiFileUtils 
+    link: https://github.com/hpc/mpifileutils
+
+other:
+  - title: Lustre
+    link: https://git.hpdd.intel.com/?p=fs/lustre-release.git
+
+  - title: Lustre Monitoring Tools
+    link: https://github.com/llnl/lmt
+
+  - title: Buildbot
+    link: https://github.com/buildbot/buildbot

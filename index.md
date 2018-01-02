@@ -1,5 +1,6 @@
 ---
 tags: [home, Giuseppe, DiNatale, dinatale2]
+layout: home
 permalink: /
 ---
 
