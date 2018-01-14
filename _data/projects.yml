@@ -28,6 +28,22 @@
         farm builds each proposed change and tag made in the Lustre
         repository.
 
+- title: Custom C# List View Control
+  logo: list.png
+  include: true
+  report:
+  docs:
+  github: https://github.com/dinatale2/Datalist
+  link:
+  content: >
+
+        A custom C# control which displays information in a list view. The
+        control is fully customizable allowing the programmer to control row
+        and column color, column names, column data types, and much more.
+        The list can also be displayed as a dropdown list. The control
+        leverages a wrapper for Microsoft's UxTheme interface for themed
+        drawing.
+
 - title: Modification and Evaluation of Linux I/O Schedulers
   logo: io.png
   include: true
@@ -52,10 +68,10 @@
   link:
   content: >
 
-        In a team of two, designed and implemented a ray tracer with Nvidia's CUDA.
-        The ray tracer was capable of loading an arbitrary mesh and it's associated
-        KD tree and produced images based on camera position and light sources in
-        the scene.
+        In a team of two, designed and implemented a ray tracer with Nvidia's
+        CUDA. The ray tracer was capable of loading an arbitrary mesh and it's
+        associated KD tree and produced images based on camera position and
+        light sources in the scene.
 
 - title: Travel Prediction Model
   logo:
