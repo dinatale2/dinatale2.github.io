@@ -44,6 +44,18 @@
         leverages a wrapper for Microsoft's UxTheme interface for themed
         drawing.
 
+- title: Custom C# Controls
+  logo:
+  include: true
+  report:
+  docs:
+  github: https://github.com/dinatale2/CustomControls
+  link:
+  content: >
+
+        A collection of custom C# controls including a progress bar, loading
+        circle, cued textbox, and transparent control support.
+
 - title: Modification and Evaluation of Linux I/O Schedulers
   logo: io.png
   include: true
