@@ -44,6 +44,20 @@
         leverages a wrapper for Microsoft's UxTheme interface for themed
         drawing.
 
+- title: C# SQL Library
+  logo:
+  include: true
+  report:
+  docs:
+  github: https://github.com/dinatale2/SqlUtilities
+  link:
+  content: >
+
+        A SQL library written in C# which provides an abstraction to ADODB.
+        The library is designed to provide an abstract interface allowing
+        applications to change their data provider without having to change
+        function calls.
+
 - title: Custom C# Controls
   logo:
   include: true
@@ -54,7 +68,7 @@
   content: >
 
         A collection of custom C# controls including a progress bar, loading
-        circle, cued textbox, and transparent control support.
+        circle, cued textbox, tab control, and transparent control support.
 
 - title: Modification and Evaluation of Linux I/O Schedulers
   logo: io.png
