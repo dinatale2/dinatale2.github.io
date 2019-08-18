@@ -1,4 +1,6 @@
 maintain:
+
+other:
   - title: ZFS on Linux
     link: https://github.com/zfsonlinux/zfs
 
@@ -14,7 +16,6 @@ maintain:
   - title: mpiFileUtils 
     link: https://github.com/hpc/mpifileutils
 
-other:
   - title: Lustre
     link: https://git.hpdd.intel.com/?p=fs/lustre-release.git
 

@@ -30,20 +30,25 @@
         <section id="main_content">
           {{ content }}
 
+          {% assign maintain = site.data.oss['maintain'] %}
+          {% assign msize = maintain | size %}
+          {% if msize != 0 %}
           <p class="oss">
           Software that I help maintain:
           <ul class="oss-list">
-          {% assign maintain = site.data.oss['maintain'] %}
           {% for oss in maintain %}
               <li class="oss-item">
               <a href="{{ oss.link }}">{{ oss.title }}</a>
               </li>
           {% endfor %}
           </p>
+          {% endif %}
+          {% assign other = site.data.oss['other'] %}
+          {% assign osize = other | size %}
+          {% if osize != 0 %}
           <p class="oss">
           Software that I've contributed to:
           <ul class="oss-list">
-          {% assign other = site.data.oss['other'] %}
           {% for oss in other%}
               <li class="oss-item">
               <a href="{{ oss.link }}">{{ oss.title }}</a>
@@ -51,6 +56,7 @@
           {% endfor %}
           </ul>
           </p>
+          {% endif %}
         </section>
         </div>
         <footer>
