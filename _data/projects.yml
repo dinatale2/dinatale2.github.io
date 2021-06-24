@@ -19,7 +19,7 @@
   report:
   docs:
   github: https://github.com/opensfs/lustre-buildbot-config/
-  link: http://build.lustre.org/
+  link:
   content: >
 
         A build farm for the parallel and distributed file system,
